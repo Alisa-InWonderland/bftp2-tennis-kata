@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TennisTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2021-12-07T14:39:53" hostname="LENOVO-PC" time="0.081">
+<testsuite name="TennisTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2021-12-07T15:01:45" hostname="LENOVO-PC" time="0.085">
   <properties/>
-  <testcase name="cuandoElJugador1Marca3PuntosYElJugador2Marca2Puntos()" classname="TennisTest" time="0.051"/>
-  <testcase name="cuandoElJugador1Marca2PuntosYElJugador2Marca1Punto()" classname="TennisTest" time="0.001"/>
+  <testcase name="cuandoElJugador1Marca3PuntosYElJugador2Marca2Puntos()" classname="TennisTest" time="0.057"/>
+  <testcase name="cuandoElJugador1Marca4PuntosYElJugador2Marca2Puntos()" classname="TennisTest" time="0.001"/>
+  <testcase name="cuandoElJugador1Marca2PuntosYElJugador2Marca1Punto()" classname="TennisTest" time="0.0"/>
   <testcase name="cuandoElJugador1Marca1PuntoYElJugador2Marca2Puntos()" classname="TennisTest" time="0.001"/>
-  <testcase name="cuandoElJugador1Marca2PuntosYElJugador2Marca3Puntos()" classname="TennisTest" time="0.003"/>
-  <testcase name="cuandoElJugador1Marca4PuntosYElJugador2Marca3Puntos()" classname="TennisTest" time="0.001"/>
+  <testcase name="cuandoElJugador1Marca2PuntosYElJugador2Marca3Puntos()" classname="TennisTest" time="0.001"/>
+  <testcase name="cuandoElJugador1Marca4PuntosYElJugador2Marca3Puntos()" classname="TennisTest" time="0.0"/>
   <testcase name="cuandoElJugador1Marca5PuntosYElJugador2Marca3Puntos()" classname="TennisTest" time="0.001"/>
   <testcase name="cuandoLosDosJugadoresMarcan2Puntos()" classname="TennisTest" time="0.001"/>
+  <testcase name="cuandoElJugador1Marca2PuntosYElJugador2Marca4Puntos()" classname="TennisTest" time="0.001"/>
   <testcase name="cuandoElJugador1Marca3PuntosYElJugador2Marca4Puntos()" classname="TennisTest" time="0.001"/>
-  <testcase name="cuandoLosDosJugadoresMarcan3Puntos()" classname="TennisTest" time="0.001"/>
-  <testcase name="cuandoElJugador1Marca3PuntosYElJugador2Marca5Puntos()" classname="TennisTest" time="0.001"/>
-  <testcase name="cuandoLosDosJugadoresMarcanUnPunto()" classname="TennisTest" time="0.004"/>
-  <testcase name="cuandoElJuegoEmpiezaElMarcadorEstaEn0()" classname="TennisTest" time="0.001"/>
+  <testcase name="cuandoElJugador1Marca4PuntosYElJugador2Marca1Punto()" classname="TennisTest" time="0.0"/>
+  <testcase name="cuandoLosDosJugadoresMarcan3Puntos()" classname="TennisTest" time="0.0"/>
+  <testcase name="cuandoElJugador1Marca1PuntoYElJugador2Marca4Puntos()" classname="TennisTest" time="0.0"/>
+  <testcase name="cuandoElJugador1Marca3PuntosYElJugador2Marca5Puntos()" classname="TennisTest" time="0.0"/>
+  <testcase name="cuandoLosDosJugadoresMarcanUnPunto()" classname="TennisTest" time="0.001"/>
+  <testcase name="cuandoElJuegoEmpiezaElMarcadorEstaEn0()" classname="TennisTest" time="0.0"/>
+  <testcase name="cuandoElJugador2Marca4Puntos()" classname="TennisTest" time="0.0"/>
+  <testcase name="cuandoElJugador1Marca4Puntos()" classname="TennisTest" time="0.001"/>
   <testcase name="cuandoElJugador1MarcaUnPunto()" classname="TennisTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

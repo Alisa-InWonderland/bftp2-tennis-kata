@@ -32,11 +32,11 @@ public class TennisGame {
             return "Advantage player2";
         }
 
-        else if (player1Score == 5 && player2Score == 3) {
+        else if (player1Score == 5 && player2Score == 3 || player1Score >= 4  && player2Score <= 2) {
             return "Win for player1";
         }
 
-        else if (player1Score == 3 && player2Score == 5) {
+        else if (player1Score == 3 && player2Score == 5 || player1Score <= 2  && player2Score >= 4) {
             return "Win for player2";
         }
         return puntuacionPlayer1 + " - " + puntuacionPlayer2;

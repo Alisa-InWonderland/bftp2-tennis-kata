@@ -81,6 +81,76 @@ public class TennisTest {
         String resultado = juego.getScore();
         assertThat(resultado, equalTo("thirty - forty"));
     }
+    @Test
+    void cuandoElJugador1Marca4PuntosYElJugador2Marca2Puntos() {
+        TennisGame juego = new TennisGame();
+        juego.wonPoint("player1");
+        juego.wonPoint("player1");
+        juego.wonPoint("player1");
+        juego.wonPoint("player1");
+        juego.wonPoint("player2");
+        juego.wonPoint("player2");
+        String resultado = juego.getScore();
+        assertThat(resultado, equalTo("Win for player1"));
+    }
+    @Test
+    void cuandoElJugador1Marca4PuntosYElJugador2Marca1Punto() {
+        TennisGame juego = new TennisGame();
+        juego.wonPoint("player1");
+        juego.wonPoint("player1");
+        juego.wonPoint("player1");
+        juego.wonPoint("player1");
+        juego.wonPoint("player2");
+        String resultado = juego.getScore();
+        assertThat(resultado, equalTo("Win for player1"));
+    }
+
+    @Test
+    void cuandoElJugador1Marca4Puntos() {
+        TennisGame juego = new TennisGame();
+        juego.wonPoint("player1");
+        juego.wonPoint("player1");
+        juego.wonPoint("player1");
+        juego.wonPoint("player1");
+        String resultado = juego.getScore();
+        assertThat(resultado, equalTo("Win for player1"));
+    }
+
+    @Test
+    void cuandoElJugador1Marca2PuntosYElJugador2Marca4Puntos() {
+        TennisGame juego = new TennisGame();
+        juego.wonPoint("player1");
+        juego.wonPoint("player1");
+        juego.wonPoint("player2");
+        juego.wonPoint("player2");
+        juego.wonPoint("player2");
+        juego.wonPoint("player2");
+        String resultado = juego.getScore();
+        assertThat(resultado, equalTo("Win for player2"));
+    }
+
+    @Test
+    void cuandoElJugador1Marca1PuntoYElJugador2Marca4Puntos() {
+        TennisGame juego = new TennisGame();
+        juego.wonPoint("player1");
+        juego.wonPoint("player2");
+        juego.wonPoint("player2");
+        juego.wonPoint("player2");
+        juego.wonPoint("player2");
+        String resultado = juego.getScore();
+        assertThat(resultado, equalTo("Win for player2"));
+    }
+
+    @Test
+    void cuandoElJugador2Marca4Puntos() {
+        TennisGame juego = new TennisGame();
+        juego.wonPoint("player2");
+        juego.wonPoint("player2");
+        juego.wonPoint("player2");
+        juego.wonPoint("player2");
+        String resultado = juego.getScore();
+        assertThat(resultado, equalTo("Win for player2"));
+    }
 
     @Test
     void cuandoLosDosJugadoresMarcan3Puntos() {
